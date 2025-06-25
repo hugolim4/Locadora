@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Outfit', sans-serif;
+  margin: 0;
+  background: linear-gradient(to right, #eaeaea, #fdfdfd);
+  color: #222;
+  display: flex;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.menu-lateral {
+  background-color: #f9f9f9;
+  width: 240px;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  flex-shrink: 0;
+  border-right: 2px solid #e0e0e0;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.05);
+}
+
+.menu-lateral img {
+  width: 180px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-lateral a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 12px 0;
+  width: 100%;
+  text-align: center;
+  border-radius: 8px;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.menu-lateral a:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.conteudo-principal {
+  flex-grow: 1;
+  padding: 40px;
+  max-width: 1000px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  color: #222;
+}
+
+.conteudo-principal header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.logo-grande {
+  width: 200px;
+  border-radius: 12px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+}
+
+.slogan {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #444;
+  text-align: center;
+}
+
+.conteudo-principal section h2 {
+  font-size: 2em;
+  color: #0056b3;
+  border-bottom: 2px solid #0056b3;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.conteudo-principal section p {
+  font-size: 1.05rem;
+  margin-bottom: 14px;
+  color: #555;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.conteudo-principal section p em {
+  font-style: italic;
+  font-weight: normal;
+  color: #007bff;
+}
+
+footer p {
+  text-align: center;
+  font-weight: 600;
+  color: #333;
+  margin-top: 50px;
+  font-size: 0.95rem;
+}
